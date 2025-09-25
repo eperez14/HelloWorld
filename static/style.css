@@ -1,0 +1,39 @@
+/* Style all paragraphs */
+p {
+    font-family: Georgia, serif;   /* professional font */
+    color: #333;                   /* softer text color */
+    line-height: 1.6;              /* readable spacing */
+    margin-bottom: 15px;           /* space between paragraphs */
+}
+
+/* Style all h2 headers */
+h2 {
+    color: darkblue;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/* Style table with border */
+table, th, td {
+    border: 2px solid #444;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+/* ID selector for the third paragraph */
+#third-para {
+    font-style: italic;
+    color: darkgreen;
+}
+
+/* Class selector example */
+.highlight {
+    background-color: #f0f8ff;
+}
+
+/* Logo class: style images */
+img.logo {
+    width: 200px;
+    height: auto;
+}
+
