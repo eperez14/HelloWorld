@@ -19,7 +19,7 @@ def about():
 def about_css():
     return render_template('about-css.html')
 
-@app.route('/greetings')
+@app.route('/greeting')
 def greeting():
     return render_template('greeting.html')
 
