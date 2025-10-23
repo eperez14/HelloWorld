@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Favorite Course{% endblock %}
+
+{% block content %}
+  <div class="card p-4 shadow-sm">
+    <h2 class="mb-3">Favorite Course</h2>
+    {% if subject and course_number %}
+      <p>You entered your favorite course as: <strong>{{ subject }} {{ course_number }}</strong></p>
+    {% else %}
+      <p class="text-muted">No course entered. Try adding query parameters to the URL, for example:</p>
+      <pre>/favorite-course?subject=BMGT&course_number=408C</pre>
+    {% endif %}
+  </div>
+{% endblock %}
